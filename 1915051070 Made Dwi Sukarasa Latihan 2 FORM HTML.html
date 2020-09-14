@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM UPDATE SEDERHANA</title>
+</head>
+<body>
+    <h2>Update Data Karyawan</h2>
+    <hr>
+      <form action="formulir.php" method="POST"></form>
+      <fieldset>
+          <legend>Data Formulir</legend>
+          <table>
+              <tr>
+                  <td>Nama</td>
+                  <td>:</td>
+                  <td><input type="text" name="Nama" value="" placeholder="Tuliskan Nama Anda"></td>
+              </tr>
+              <tr>
+                  <td>Password</td>
+                  <td>:</td>
+                  <td><input type="password" name="password" placeholder="Masukan Password"></td>
+              </tr>
+        <p>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> laki-laki 
+                    <input type="radio" name="jenis_kelamin" value="perempuan" /> perempuan
+                </td>
+            </tr>
+        </p>
+        <p>
+            <tr>
+            <td>Agama</td>
+            <td>:</td>
+           <td><input type="text"></td>
+        </p>    
+        
+            <tr>
+                <td>Kota Asal</td>
+                <td>:</td>
+                <td><input type="text" name="kota_asal" placeholder="Kota Anda"></td>
+            </tr>
+            <tr>
+                <td>hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="Olahraga" checked /> Olahraga
+                    <input type="checkbox" name="Membaca" /> Membaca
+                    <input type="checkbox" name="Menulis" /> Menulis
+                    <input type="checkbox" name="Traveling" /> Traveling 
+                </td>
+            </tr>
+        <p>
+            <tr>
+                <td>Komentar <br> </td>
+                <td>:</td>
+                <td><textarea name="komentar" id="" cols="20" rows="5"></textarea></td>
+            </tr>
+        </p>
+            <p>
+              <tr>
+                  <td colspan="3" align="center"> <input type="submit" value="Simpan" name="Simpan Formulir"></td>
+              </tr>
+            </p>
+        
+          </table>
+      </fieldset>
+    
+</body>
+</html>
